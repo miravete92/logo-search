@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Society Education Programs</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header>
+		<h1>Society Education Programs</h1>
+	</header>
+	<main>
+		<div class="formBox">
+			<form class="searchForm">
+				<div class="selectBoxes">
+					<select id="program" required>
+						<option value="" disabled selected hidden style='display: none'>PROGRAM TYPE</option>
+						<option value="all">SEARCH ALL</option>
+						<option value="public">SCHOLARSHIP PROGRAM</option>
+						<option value="private">LOAN PROGRAM</option>
+					</select>
+					<select id="education" required> 
+						<option value="" disabled selected hidden style='display: none'>EDUCATION LEVEL</option>-
+						<option value="all">SEARCH ALL</option>
+						<option value="kinder">KINDERGARTEN</option>
+						<option value="highsc">HIGHSCHOOL</option>
+					</select>
+				</div>
+				<input type="submit" name="submit" value="SEARCH"/>
+			</form>
+		</div>
+		<div class="searchResults">
+			<div class="row">
+				<img class="logo public kinder" src="images/kindergarten/public/kp1.jpeg">
+				<img class="logo private highsc" src="images/highschool/private/hr1.jpeg">
+				<img class="logo private kinder" src="images/kindergarten/private/kr1.jpeg">
+				<img class="logo public highsc" src="images/highschool/public/hp1.jpg">
+			</div>
+			<div class="row">
+				<img class="logo private kinder" src="images/kindergarten/private/kr2.jpeg">
+				<img class="logo private highsc" src="images/highschool/private/hr2.jpg">
+				<img class="logo private kinder" src="images/kindergarten/private/kr3.jpeg">
+				<img class="logo public highsc" src="images/highschool/public/hp2.png">
+			</div>
+			<div class="row">
+				<img class="logo public highsc" src="images/highschool/public/hp3.jpg">
+				<img class="logo public highsc" src="images/highschool/public/hp4.png">
+				<img class="logo private highsc" src="images/highschool/private/hr3.jpg">
+				<img class="logo private kinder" src="images/kindergarten/private/kr4.png">
+			</div>
+			<div class="row">
+				<img class="logo public kinder" src="images/kindergarten/public/kp2.jpeg">
+				<img class="logo private highsc" src="images/highschool/private/hr4.png">
+				<img class="logo public kinder" src="images/kindergarten/public/kp3.png">
+				<img class="logo public kinder" src="images/kindergarten/public/kp4.jpeg">
+			</div>
+		</div>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

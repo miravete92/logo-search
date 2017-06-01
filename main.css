@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto');
+
+*{
+	box-sizing: border-box;
+}
+header{
+	margin: auto;
+	margin-top: 60px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color:#A00;
+	font-size: 25px;
+}
+.formBox{
+	margin: auto;
+	background-color: #EEE;
+	max-width: 600px;
+	font-size: 0px;
+	padding: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+select {
+	width: 45%;
+	font-size: 20px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	color: #CCC;
+	padding: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+input[type=submit]{
+	display: block;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin:auto;
+	margin-top: 30px;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	background-color: #A00;
+	border:none;
+	color:white;
+}
+input[type=submit]:hover{
+	
+	background-color: #D00;
+}
+.searchResults{
+	font-size: 0px;
+	max-width: 600px;
+	margin: auto;
+}
+img{
+	filter: grayscale(100%);
+	width: 25%;
+	padding: 20px;
+	opacity: 0.5;
+}
+img.selected{
+	filter: grayscale(0%);
+	opacity: 1;
+}
