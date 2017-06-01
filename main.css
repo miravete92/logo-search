@@ -55,7 +55,7 @@ input[type=submit]:hover{
 }
 img{
 	filter: grayscale(100%);
-	width: 25%;
+	width: 50%;
 	padding: 20px;
 	opacity: 0.4;
 	transition: filter 1s, opacity 1s;
@@ -63,4 +63,14 @@ img{
 img.selected{
 	filter: grayscale(0%);
 	opacity: 1;
+}
+@media (min-width: 400px){
+	img{
+		width: 33.33333333%;
+	}
+}
+@media (min-width: 600px){
+	img{
+		width: 25%;
+	}
 }
